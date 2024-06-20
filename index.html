@@ -7,5 +7,24 @@
     <option value="az-akv">retrieve keys from AKV</option>
     <option value="create-issue">Create Issues in Jira</option>
 </select>
+
+   <!-- Input field -->
+    <input type="text" id="myInput" placeholder="Enter text"> 
+  <!-- Button to get input value -->
+    <button onclick="getValue()">Get Value</button> 
+  
+    <!-- Script to get input value -->
+    <script> 
+        function getValue() { 
+            // Get the input element by its ID 
+            let inputField = document.getElementById("myInput"); 
+          
+            // Get the value of the input field 
+            let value = inputField.value; 
+          
+            // Display the value in an alert 
+            alert("Input value: " + value); 
+        } 
+    </script> 
 </body>
 </html>
